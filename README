@@ -1,0 +1,22 @@
+# PncA–PZA Research
+
+This project studies how mutations in *Mycobacterium tuberculosis* PncA relate
+to pyrazinamide resistance, using molecular-dynamics simulations and
+mutation-level analysis.
+
+The prediction cohort contains 664 mutations: 349 resistant and 315
+susceptible. It was assembled by Carter et al. from published mutation
+catalogues. Their [paper](https://doi.org/10.1093/jacamr/dlae037) and
+[Phil Fowler’s repository](https://github.com/fowler-lab/predict-pyrazinamide-resistance)
+describe the source dataset and its preparation.
+
+## Repository guide
+
+- `data/` — mutation labels and derived tables
+- `models/` — wild-type and mutant structures
+- `simulations/` — topology, NAMD inputs and simulation outputs
+- `analysis/` — feature extraction and analysis
+- `docs/` — methods, provenance and project notes
+
+See the README in each directory for details, including the simulation
+protocol and relevant references.
